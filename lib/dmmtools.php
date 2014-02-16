@@ -45,6 +45,11 @@ class DmmTools {
         return $this;
     }
 
+    public function setHits($hits) {
+        $this->hits = $hits;
+        return $this;
+    }
+
     public function createUrl() {
         $url = $this->prefix_url;
         $url .= 'api_id='.$this->api_id.'&';
