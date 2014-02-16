@@ -1,0 +1,6 @@
+<?php
+
+// example: ABCDEFGHIJ
+define('DMM_API_ID', '#PLEASE_EDIT#');
+// example: xxxxxxx-999
+define('DMM_AFFILIATE_ID', '#PLEASE_EDIT#');
