@@ -108,4 +108,13 @@ class DmmTools {
     public function getResultCount($response) {
         return (int)$response->result->result_count;
     }
+
+    public function getReleaseDate($item) {
+        return (string)$item->date;
+    }
+
+    public function getStock($item) {
+        return (string)$item->stock;
+    }
+
 }
